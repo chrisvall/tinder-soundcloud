@@ -22,7 +22,7 @@ var ready;
 ready = function() {
   SC.initialize({
     client_id: '33e7a0df888ec6bed1d7188d1a861a28',
-    redirect_uri: location.hostname + '/callback.html'
+    redirect_uri: 'http://' + location.hostname + ':3000' + '/callback.html'
   });
 
   SC.get('/tracks', { genres: 'electronica' }, function(tracks) {
@@ -35,7 +35,7 @@ ready = function() {
     e.preventDefault();
     SC.connect(function() {
         SC.get('/me', function(me) {
-            $('#username').html(me.username);
+            $('#username').html(me.username + ' ' + me.full_name);
         });
     });
   });
