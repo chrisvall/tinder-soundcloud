@@ -22,7 +22,7 @@ var ready;
 ready = function() {
   SC.initialize({
     client_id: '33e7a0df888ec6bed1d7188d1a861a28',
-    redirect_uri: location.hostname + "/callback"
+    redirect_uri: location.hostname + '/callback.html'
   });
 
   SC.get('/tracks', { genres: 'electronica' }, function(tracks) {
