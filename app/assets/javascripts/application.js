@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require ../../../vendor/assets/javascripts/SC
 //= require_tree .
+//= require ../../../vendor/assets/javascripts/SC
+//= require ../../../vendor/assets/javascripts/soundmanager
