@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require_tree .
 //= require ../../../vendor/assets/javascripts/SC
-//= require ../../../vendor/assets/javascripts/soundmanager
+//= require ../../../vendor/assets/javascripts/soundmanager2
